@@ -6,17 +6,7 @@
 
 using namespace std;
 
-void Grid::set(int x,int y, char input){
-  
-  //Makes sure the grid is at most 60x24
-  if(x>=60 || y>= 24)
-    return;
-  else
-    m_grid[x][y]=input;
-
-}
-
-
+//Prints the grid
 void Grid::print(){
 
   for(int i = 0; i <24; i++)  
@@ -24,6 +14,16 @@ void Grid::print(){
       cout << m_grid[o][i];
     cout << endl;
   
+}
+
+void Grid::set(int x,int y, char input){
+  
+  //Makes sure the grid is 60x24
+  if(x>=60 || y>= 24)
+    return;
+  else
+    m_grid[x][y]=input;
+
 }
 
 //Constructor
