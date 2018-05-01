@@ -12,8 +12,8 @@ using namespace std;
 class Shape{
 
   public: 
-    virtual void draw(Grid &grid) = 0;
-    Shape(int x, int y);
+    virtual void draw(Grid &);
+    Shape(int , int );
 
   protected:
     int m_x;
