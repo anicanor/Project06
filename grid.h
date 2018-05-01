@@ -7,17 +7,20 @@
 
 #include<iostream> 
 
+// A vector declaration. Acts as a character template
+typedef vector < vector <char> > Matrix;
+
 using namespace std;
 
 class Grid{
 
   public:
     void print();
-    void set(int x,int y, char input);
+    void set(int ,int , char );
     Grid();
   
   private: 
-      char m_grid[60][24];
+        Matrix grid;
         
 };
 
