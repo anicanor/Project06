@@ -1,8 +1,8 @@
 //grid.cpp
 //Aaron Nicanor
 //anicanor
-#include "grid.h"
 #include<iostream>
+#include "grid.h"
 
 using namespace std;
 
