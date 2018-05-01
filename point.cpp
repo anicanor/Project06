@@ -2,11 +2,10 @@
 //Aaron Nicanor
 //anicanor
 
-#include "point.h"
-#include "grid.h"
-#include "shape.h" 
-
 #include<iostream>
+
+#include "point.h"
+#include <vector>
 
 using namespace std;
 
