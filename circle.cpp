@@ -2,13 +2,16 @@
 //Aaron Nicanor
 //anicanor
 
-#include "shape.h"
-#include "circle.h"
-#include "grid.h"
-
 #include<iostream>
 
+#include<vector>
+#include "circle.h"
+
 using namespace std;
+
+//Constructor
+Circle::Circle(int x, int y) : Shape(x,y){
+}
 
 //Drawing out the circle
 void Circle::draw(Grid &grid){
@@ -23,5 +26,3 @@ void Circle::draw(Grid &grid){
   grid.set(m_x + 2, m_y + 3, 'o');
 }
 
-Circle::Circle(int x, int y) : Shape(x,y){
-}
