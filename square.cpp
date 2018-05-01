@@ -2,11 +2,10 @@
 //Aaron Nicanor
 //anicanor
 
-#include "square.h"
-#include "grid.h"
-#include "shape.h"
-
 #include<iostream>
+#include<vector>
+
+#include "square.h"
 
 using namespace std;
 
