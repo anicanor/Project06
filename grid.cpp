@@ -30,16 +30,8 @@ void Grid::set(int x,int y, char input){
 Grid::Grid(){
 
   for(int i = 0; i < 60; i++)
-    for(int o = 0; o <24; row++)
+    for(int o = 0; o <24; o++)
       m_grid[i][o] = ' ';
     
 }
 
-//Desctructor
-Grid::~Grid(){
-  
-    for(int i = 0; i <24; i++)
-      delete [] m_grid[i];
-    delete [] m_grid;
-  
-}
