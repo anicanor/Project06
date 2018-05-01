@@ -2,9 +2,10 @@
 //Aaron Nicanor
 //anicanor
 
-#include "shape.h" 
-#include "grid.h"
 #include<iostream>
+#include<vector>
+
+#include "shape.h" 
 
 using namespace std;
 
@@ -12,4 +13,10 @@ Shape::Shape(int x, int y){
 
  m_x=x;
  m_y=y;
+}
+
+//Confirms that it was called
+void Shape::draw(Grid &grid){
+ 
+    cout<< "Shape draw was called" << endl;
 }
