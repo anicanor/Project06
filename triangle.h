@@ -5,16 +5,17 @@
 #ifndef TRIANGLE_H
 #define TRIANGLE_H
 
-#include "shape.h"
-#include "grid.h"
-
+#include<vector>
 #include<iostream>
+
+#include "shape.h"
+
 
 class Triangle:public Shape{
 
   public: 
-    void draw(Grid &grid);
-    Triangle(int x, int y);
+    void draw(Grid &);
+    Triangle(int , int );
 
 };
 #endif
