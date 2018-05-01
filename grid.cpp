@@ -18,7 +18,7 @@ void Grid::print(){
 
 void Grid::set(int x,int y, char input){
   
-  //Makes sure the grid is 60x24
+  // If the input is trying to put a character outside of the grid, this will stop it
   if(x>=60 || y>= 24)
     return;
   else
