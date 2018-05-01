@@ -5,18 +5,16 @@
 #ifndef SQUARE_H 
 #define SQUARE_H
 
-#include"shape.h"
-#include"grid.h"
-
 #include<iostream>
+#include"shape.h"
 
 using namespace std;
 
-class Square:public Shape{
+class Square : public Shape{
 
   public: 
-    void draw(Grid &grid);
-    Square(int x,int y,int size);
+    void draw(Grid &);
+    Square(int ,int ,int );
 
   private: 
     int m_size;
