@@ -6,11 +6,12 @@
 #define GRID_H
 
 #include<iostream> 
+#include<vector>
+
+using namespace std;
 
 // A vector declaration. Acts as a character template
 typedef vector < vector <char> > Matrix;
-
-using namespace std;
 
 class Grid{
 
