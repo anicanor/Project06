@@ -15,8 +15,7 @@ class Grid{
     void print();
     void set(int x,int y, char input);
     Grid();
-    ~Grid();
-    
+  
   private: 
       char m_grid[60][24];
         
